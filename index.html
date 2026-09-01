@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>BookNest Library</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+
+        <div class="logo">📚 Library Management</div>
+
+        <nav>
+            <a href="./pages/login.html">Login</a>
+        </nav>
+
+    </header>
+
+
+    <!-- Welcome Section -->
+    <main class="welcome">
+
+        <div class="welcome-content">
+
+            <p class="tagline">
+                WELCOME TO YOUR DIGITAL LIBRARY
+            </p>
+
+            <h1>
+                Discover Your Next
+                <span>Great Book</span>
+            </h1>
+
+            <p class="description">
+                Welcome to BookNest Library Management System.
+                Explore books, manage your library account and enjoy
+                a simple and smart reading experience.
+            </p>
+
+            <button class="get-started" onclick="goToLogin()">
+                Get Started →
+            </button>
+
+        </div>
+
+
+        <!-- Book Image -->
+        <div class="image-container">
+
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFZ181m22kz0HYI3AqK-ITNunMZ0pSiDF_0ljnd-Aohw&s=10"
+                 alt="Library Books">
+
+        </div>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            © 2026 BookNest Library. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script>
+
+        function goToLogin() {
+
+            window.location.href = "./pages/login.html";
+
+        }
+
+    </script>
+
+</body>
+
+</html> 

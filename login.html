@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>BookNest - Login</title>
+
+    <link rel="stylesheet" href="../CSS/login.css">
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <header class="navbar">
+
+        <div class="logo">
+            📚 BookNest
+        </div>
+
+        <nav>
+
+            <a href="../pages/register.html">
+                Register
+            </a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- Login Section -->
+
+    <main class="login-section">
+
+        <div class="login-box">
+
+            <div class="login-icon">
+                🔐
+            </div>
+
+            <h1>
+                Welcome Back
+            </h1>
+
+            <p class="subtitle">
+                Login to your BookNest account
+            </p>
+
+
+            <!-- Login Form -->
+
+            <form onsubmit="loginUser(event)">
+
+                <!-- Email -->
+
+                <div class="input-group">
+
+                    <label for="email">
+                        Email Address
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Enter your email"
+                        required
+                    >
+
+                </div>
+
+
+                <!-- Password -->
+
+                <div class="input-group">
+
+                    <label for="password">
+                        Password
+                    </label>
+
+                    <input
+                        type="password"
+                        id="password"
+                        placeholder="Enter your password"
+                        required
+                    >
+
+                </div>
+
+
+                <!-- Login Button -->
+
+                <button
+                    type="submit"
+                    class="login-btn"
+                >
+                    Login
+                </button>
+
+            </form>
+
+
+            <!-- Register Link -->
+
+            <p class="register-text">
+
+                Don't have an account?
+
+                <a href="../pages/register.html">
+                    Create Account
+                </a>
+
+            </p>
+
+        </div>
+
+    </main>
+
+
+    <!-- JavaScript -->
+
+    <script src="../Js/login.js"></script>
+
+</body>
+
+</html>
